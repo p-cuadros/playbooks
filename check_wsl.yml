@@ -3,4 +3,5 @@
   tasks:
     - name: Run an executable using win_command
       win_command: whoami.exe
-
+    - name: Tarea 2
+      win_command: wsl -l -v
